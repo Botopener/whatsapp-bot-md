@@ -56,6 +56,8 @@ A simple Whatsapp User bot
           yarn install --network-concurrency 1
 
     ###### 6. Enter Environment Variables
+          
+    ###### 7. Add repleca followers to any online accounts
 
     ###### copy paste lines below (remove SESSION_ID if not needs)
 
@@ -81,7 +83,7 @@ A simple Whatsapp User bot
 
     ###### nano config.env, if you want edit. TO Save ctrl + o press enter then ctrl + x
 
-    ###### 7. start and stop bot
+    ###### 8. start and stop bot
 
           To start bot `pm2 start . --name botName --attach --time`
           To stop bot `pm2 stop botName`
